@@ -4,7 +4,7 @@
 
 **推荐 Windows 10 build 19041 及以上系统（含 Windows 11，x64）的同事使用安装版。**
 
-[下载安装版 26.1013.4894.0](https://github.com/3896405/Chatgpt/releases/tag/installer-v26.1013.4894.0)
+[下载安装版 26.1021.3705.0](https://github.com/3896405/Chatgpt/releases/tag/installer-v26.1021.3705.0)
 
 解压后先运行安装ChatGPT.cmd，完成后运行创建ChatGPT桌面快捷方式.cmd。低于 build 19041 的系统不能安装该 MSIX。
 
