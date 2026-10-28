@@ -6,19 +6,21 @@
 | 版本 | 适用情况 | 下载 |
 | --- | --- | --- |
 | 安装版 26.1021.3705.0 | 推荐 Windows 10 build 19041 及以上、Windows 11 的 x64 电脑 | [安装版下载](https://github.com/3896405/Chatgpt/releases/tag/installer-v26.1021.3705.0) |
-| 完整便携版 26.1021.3705.0 | 第三方完整原包；启动检查未通过，按待验证测试版提供 | [完整便携版下载](https://github.com/3896405/Chatgpt/releases/tag/portable-v26.1021.3705.0) |
+| 纯程序目录便携版 26.1021.3705.0 | 解压后直接双击 ChatGPT.exe，无需启动脚本 | [便携版下载](https://github.com/3896405/Chatgpt/releases/tag/portable-flat-v26.1021.3705.0) |
 
 ## 安装版使用
 
 完整解压 ZIP，先运行“安装ChatGPT.cmd”，安装成功后运行“创建ChatGPT桌面快捷方式.cmd”。两个脚本独立，成功后窗口自动关闭。保留 ChatGPT.ico，桌面快捷方式使用此图标。
 
-## 完整便携版使用
+## 便携版使用
 
-完整解压到较短路径，例如 D:\AI\Codex。首次运行 Setup Codex.cmd 按需完成初始化，日常运行 Codex.cmd。不要单独移动 EXE 或删除 _internal 中的文件。
+完整解压到固定目录，直接双击根目录的 **ChatGPT.exe**。打开文件夹即为程序目录，保留 resources、locales 等全部配套文件，不要只复制 EXE。
 
-便携包来自 [lusipad/unofficial-codex-app-offline 的同版本发行版](https://github.com/lusipad/unofficial-codex-app-offline/releases/tag/offline-v26.1021.3705.0)，原 ZIP 未修改，已核对源发布 SHA256。它不同于本仓库旧版自行简化的便携包，也不是 OpenAI 官方发行版。
+本版从官方 MSIX 的 app 目录直接提取，未添加第三方补丁、初始化向导、外层启动器或额外技能。无需运行 CMD、PowerShell、Setup，也没有 _internal 套目录。
 
-已核对安装包完整性及便携 ZIP 的源发布 SHA256。便携程序的本机隔离启动检查未确认窗口及任务服务就绪，日志出现 Desktop startup policy read failed，故标为待验证测试版，建议优先使用安装版。登录后的任务、全部插件和旧 Windows 系统兼容性仍需实际验证。AI 功能需要网络及有效账号。
+本机隔离启动检查通过，窗口和包内配套后端就绪。测试机器已有运行时缓存，尚未验证全新系统、所有插件、实际 AI 任务及旧 Windows 系统兼容性。使用需要联网和有效账号，配置可能仍保存在当前用户目录。
+
+[便携 ZIP 直接下载](https://github.com/3896405/Chatgpt/releases/download/untagged-d7919caafd1787395231/ChatGPT-Flat-Portable-26.1021.3705.0.zip)
 
 [全部历史版本](https://github.com/3896405/Chatgpt/releases)
 <!-- CURRENT_DOWNLOADS_END -->
