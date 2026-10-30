@@ -1,12 +1,12 @@
 <!-- CURRENT_DOWNLOADS_BEGIN -->
 # ChatGPT 安装版与便携版
 
-最新版本：**26.1023.6123.0**。历史发行版保留。
+最新版本：**26.1027.3384.0**。历史发行版保留。
 
 | 版本 | 使用方式 | 下载 |
 | --- | --- | --- |
-| 安装版 26.1023.6123.0 | 推荐 Windows 10 build 19041 及以上、Windows 11 x64；一个 CMD 自动安装并创建桌面快捷方式 | [安装版下载](https://github.com/3896405/Chatgpt/releases/tag/installer-v26.1023.6123.0) |
-| 纯程序目录便携版 26.1023.6123.0 | 完整解压后直接双击根目录 ChatGPT.exe，无需启动脚本 | [便携版下载](https://github.com/3896405/Chatgpt/releases/tag/portable-flat-v26.1023.6123.0) |
+| 安装版 26.1027.3384.0 | 推荐 Windows 10 build 19041 及以上、Windows 11 x64；一个 CMD 自动安装并创建桌面快捷方式 | [安装版下载](https://github.com/3896405/Chatgpt/releases/tag/installer-v26.1027.3384.0) |
+| 纯程序目录便携版 26.1027.3384.0 | 完整解压后直接双击根目录 ChatGPT.exe，无需启动脚本 | [便携版下载](https://github.com/3896405/Chatgpt/releases/tag/portable-flat-v26.1027.3384.0) |
 
 ## 安装版使用
 
